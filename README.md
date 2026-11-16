@@ -1,2 +1,29 @@
 # AirPodFocus
-🎧 看向哪个屏幕就在哪打字！基于 AirPods 头部追踪的 macOS 多显示器输入焦点与鼠标自动切换工具。 Auto-switch window typing focus &amp; mouse cursor to the monitor you look at via AirPods head tracking on macOS.
+# 🎧 AirPodFocus v2.0.0 - 看向即打字 (Look to Type)
+
+AirPodFocus 让你在多显示器（双屏、多屏、上下叠屏）办公时彻底解放双手！
+佩戴 AirPods 时，只需将视线或头部转向某块屏幕，该屏幕的活动窗口立即自动获取键盘输入焦点，光标平滑同步跟随，无需点击鼠标，双手不离键盘即可行云流水般打字！
+
+### ✨ 核心功能
+* **👀 视线即焦点**：自动检测所有连接屏幕（智能识别并排或上下叠屏），转头或抬头瞬间激活当前屏幕顶层窗口。
+* **📐 专为「上下近距离叠屏」深度调优**：
+  * 支持 **垂直增益放大 (Pitch Gain)**（1.0x ~ 6.0x），微动下巴或轻微抬头即可轻松切屏，长时间办公脖子不疲劳。
+  * 自适应迟滞滤波 (Adaptive Hysteresis)，小间距屏幕绝不卡死。
+* **🖥 原生 macOS 状态栏应用**：常驻顶部菜单栏，极简耳机图标 🎧，不占 Dock 栏。
+* **⚡ 两种重新校准模式**：
+  * **快速居中复位**：直视前方自然点击，一键重置 (0°, 0°) 基准。
+  * **手动分屏校准**：分别看屏幕 0 与屏幕 1 记录视角，内置防死锁智能校验。
+* **🎛 高级动态调优面板**：
+  * 实时姿态动态监视（动态展示当前 Pitch 俯仰角与 Yaw 偏航角）。
+  * 平滑度防抖迟滞、垂直灵敏度、注视确认时间滑块无级调节。
+  * 切屏提示音 (Audio Feedback) 与光标同步跟随 (Cursor Warp) 开关。
+  * 支持一键切换原版「头部控制鼠标光标」模式。
+
+### 🛠️ 环境要求
+* macOS 14.0 (Sonoma) 或 macOS 15+ (Sequoia)
+* 支持空间音频与运动传感器的耳机：AirPods 4 (ANC/标准版)、AirPods Pro 1/2、AirPods 3、AirPods Max、Beats Fit Pro。
+* 权限需求：初次运行请在「系统设置 → 隐私与安全性」中授予 **辅助功能** 与 **运动与健身** 权限。
+
+### 📦 安装说明
+1. 下载下方的 `AirPodFocus-v2.0.dmg`。
+2. 双击打开并将 `AirPodFocus` 拖入 `Applications` 文件夹即可使用。
