@@ -83,8 +83,8 @@ Using the built-in motion sensors inside your **AirPods (CoreMotion head trackin
 ### Option 2: Build From Source
 
 ```bash
-git clone https://github.com/systemsoftware/airpodmouse.git
-cd airpodmouse
+git clone https://github.com/giao-haha/airpodfocus.git
+cd airpodfocus
 
 # Build release DMG
 ./build_dmg.sh
