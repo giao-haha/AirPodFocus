@@ -81,8 +81,8 @@
 在终端中执行以下命令：
 
 ```bash
-git clone https://github.com/systemsoftware/airpodmouse.git
-cd airpodmouse
+git clone https://github.com/giao-haha/AirPodFocus.git
+cd airpodfocus
 
 # 运行构建脚本（编译、Ad-hoc 签名并生成 DMG）
 ./build_dmg.sh
